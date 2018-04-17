@@ -7,7 +7,13 @@ For more information and related downloads for HPCC Systems products, please vis
 
 
 ## How to use Docker HPCC image
-You can start Docker HPCC image in interactive (-i -t) or daemon mode (-d). You need start HPCC processes then go to ECLWatch to submit jobs, query and explore your data with the HPCC Systems platform. "-p <host port>:<docer container port>" will map a port of docker container to a host port. The default ECLWatch port is 8010.
+You can start the Docker HPCC image in interactive (-i -t) or daemon mode (-d). You must start the HPCC processes then go to ECLWatch to submit jobs, query, and explore your data with the HPCC Systems platform. 
+
+To map a docker container port to a host port. 
+
+  "-p <host port>:<docker container port>" 
+  
+The default ECLWatch port is 8010.
 
 ### Ubuntu
 To start Docker in interactive mode and map ECLWatch port 8010 to host 8010:
